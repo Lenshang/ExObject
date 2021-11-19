@@ -5,7 +5,7 @@ from dateutil.relativedelta import *
 from dateutil.easter import *
 from dateutil.rrule import *
 from dateutil.parser import *
-from ExObject.TimeSpan import *
+from .TimeSpan import *
 class DateTime(object):
     """DateTime CodeStyle Like DotNet By Chenyi"""
     _dateTime=datetime.datetime.now()
@@ -22,6 +22,7 @@ class DateTime(object):
         self.Minute=self._dateTime.minute
         self.Second=self._dateTime.second
         self.Millisecond=self._dateTime.microsecond
+        self.WeekDay=self._dateTime.weekday()+1#monday=1,sunday=7
 
     def AddDays(self,count:int)->"DateTime":
         return DateTime(datetimeParam=self._dateTime+relativedelta(days=count))

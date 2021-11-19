@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='exobject',
-    version=0.3,
+    version=0.5,
     description=(
         'Extend Object Code'
     ),

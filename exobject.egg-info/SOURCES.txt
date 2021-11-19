@@ -2,6 +2,7 @@ README.rst
 setup.py
 ExObject/DateTime.py
 ExObject/ExObject.py
+ExObject/ExStock.py
 ExObject/TimeSpan.py
 ExObject/__init__.py
 exobject.egg-info/PKG-INFO
