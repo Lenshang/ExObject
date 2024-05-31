@@ -307,3 +307,6 @@ data
 *.ods
 *.ods#
 dist/*
+.exobj
+.egg-info
+*.egg-info
