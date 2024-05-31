@@ -1,8 +1,0 @@
-安装必要工具：
-python -m pip install --user --upgrade setuptools wheel
-python -m pip install --user --upgrade twine
-
-编译：
-python setup.py sdist bdist_wheel
-推送：
-python -m twine upload --repository-url https://upload.pypi.org/legacy/ dist/*
